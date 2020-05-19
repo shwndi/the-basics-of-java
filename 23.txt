@@ -1,0 +1,73 @@
+prompt Importing table api_services...
+set feedback off
+set define off
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('1001', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.caseinfo.api.service.ICaseDataService_todocasefeedback', '/case', 10000, '1', '待获取反馈', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('1002', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.caseinfo.api.service.ICaseDataService_callbackcasefeedback', '/case', 10000, '1', '待获取反馈回写', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('1003', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.caseinfo.api.service.ICaseDataService_casefeedback', '/case', 10000, '1', '反馈查询', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('2001', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.caseinfo.api.service.ICaseDataService_getcaseinfo1', '/case', 10000, '1', '投诉单获取', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('2002', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.caseinfo.api.service.ICaseDataService_getcaseinfo2', '/case', 10000, '1', '举报单获取', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('2003', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.caseinfo.api.service.ICaseDataService_getcaseinfo3', '/case', 10000, '1', '咨询单获取', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('2004', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.caseinfo.api.service.ICaseDataService_numcaseinfo', '/case', 10000, '1', '对账接口', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('3001', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.caseinfo.api.service.ICaseDataService_caseinfo1', '/case', 10000, '1', '投诉单上报', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('3002', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.caseinfo.api.service.ICaseDataService_caseinfo2', '/case', 10000, '1', '举报单上报', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('3003', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.caseinfo.api.service.ICaseDataService_caseinfo3', '/case', 10000, '1', '咨询单上报', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('4001', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.call.api.service.IInfoReportService_callinfo', '/call', 10000, '1', '话务信息上报', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('4002', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.call.api.service.IInfoReportService_recordinfo', '/call', 10000, '1', '录音信息上报', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('4003', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.call.api.service.IInfoReportService_seatsignin', '/call', 10000, '1', '座席工作信息上报', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('4004', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.call.api.service.IInfoReportService_satisfaction', '/call', 10000, '1', '满意度评价上报', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('5001', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.calllogo.api.service.ICallLogoService_callinfo', '/calllogo', 10000, '1', '来电信息
+', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('5002', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.calllogo.api.service.ICallLogoService_isworktime', '/calllogo', 10000, '1', '判断工作时间接口
+', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('5003', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.calllogo.api.service.ICallLogoService_operdetail', '/calllogo', 10000, '1', '按键轨迹记录接口
+', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('5004', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.calllogo.api.service.ICallLogoService_checkphone', '/calllogo', 10000, '1', '判断用户类型接口
+', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('5005', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.calllogo.api.service.ICallLogoService_recordlog', '/calllogo', 10000, '1', 'IVR留言接口
+', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('5006', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.calllogo.api.service.ICallLogoService_satisfactionresult', '/calllogo', 10000, '1', '转满意度调查结果记录接口', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+insert into api_services (ID, RPC_ADDRESS, RPC_PROTOCOL, RPC_VERSION, RPC_SERVICE_NAME, RPC_URL, RPC_TIMEOUT, RPC_STATE, RPC_DESCRIPTION, RPC_API_VERSION, RPC_USERID, RPC_USERNAME, RPC_UPDATE_TIME, JZZT, JZSJ)
+values ('5007', '172.16.30.82:2181', 'zookeeper', null, 'com.zrar.extdi.calllogo.api.service.ICallLogoService_getphone', '/calllogo', 10000, '1', '获取转外线号码接口
+', 'v2', '1000', '超级管理员', to_date('05-07-2019', 'dd-mm-yyyy'), '1', null);
+
+prompt Done.
